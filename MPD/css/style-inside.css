@@ -1,0 +1,326 @@
+/* Base Rules */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+  position: relative;
+}
+
+h1,
+h5 {
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0.0125em;
+  line-height: 1.25em;
+}
+
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+  line-height: 1.3em;
+}
+
+h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: grey;
+  letter-spacing: 0.025em;
+  font-weight: 300;
+}
+
+.r-p {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bg-sec {
+  background: #dadada;
+}
+
+.r-btn {
+  padding: 10px 25px;
+  background-color: #00acc8 !important;
+  color: #fff !important;
+  border-radius: 50px;
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+.r-btn:hover {
+  padding: 10px 25px;
+  background-color: #323232 !important;
+  color: #fff !important;
+  border-radius: 50px;
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+.headshot img {
+  border-radius: 400px;
+  border: 10px solid #00acc8;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  color: #00acc8;
+  list-style: none;
+  font-style: normal !important;
+  line-height: 1.5em !important;
+}
+
+/* Header */
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* Navigation */
+nav .r-nav {
+  background: transparent;
+  padding: 20px 0px;
+  transition: 0.5s all;
+}
+
+nav .navbar-brand {
+  font-size: 38px;
+  color: #fff;
+  transition: 0.5s all;
+  font-family: "Nunito", sans-serif;
+}
+
+nav .navbar-nav li a {
+  color: #323232 !important;
+  font-size: 25px;
+  letter-spacing: 0.025em;
+  font-weight: 200;
+  font-family: "Nunito", sans-serif;
+}
+
+nav .dropdown-toggle {
+  color: #323232 !important;
+  font-size: 25px;
+  letter-spacing: 0.025em;
+  font-weight: 200;
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  top: -4px;
+}
+
+nav .navbar-nav li a:hover {
+  color: #323232 !important;
+  letter-spacing: 0.025em;
+  font-weight: 200;
+  font-family: "Nunito", sans-serif;
+  transition: 0.25s all ease-in-out;
+}
+
+nav .navbar-nav li {
+  margin-right: 20px;
+}
+
+nav .navbar-nav {
+  position: relative;
+}
+
+nav .dropdown-menu {
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  margin-right: 10px;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.15);
+}
+
+nav .dropdown-item {
+  font-size: 18px !important;
+}
+
+nav.r-nav.stickyadd {
+  background: #fff !important;
+  padding: 15px 0;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.15);
+  transition: 0.5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+  color: #000;
+  transition: 0.5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+  color: #00acc8 !important;
+}
+
+nav.stickyadd .navbar-nav .nav-link:hover {
+  color: #000 !important;
+}
+
+.navbar .hamburger {
+  color: #fff;
+}
+
+nav.stickyadd .hamburger {
+  color: #000;
+}
+
+/* Header Section */
+header {
+  height: 300px;
+  width: 100%;
+  background-color: #00acc8;
+}
+
+.header-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.content-box {
+  max-width: 950px;
+  color: #fff;
+}
+
+.content-box h1 {
+  font-size: 85px;
+  line-height: 1em !important;
+  position: relative;
+  top: 25px;
+}
+
+/* Client List */
+.client-list li {
+  list-style-type: none !important;
+}
+
+/* Skills Section */
+.exp-class .progress {
+  height: 20px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.progress-bar {
+  background-color: #00acc8 !important;
+}
+
+.exp-class label {
+  font-size: 24px;
+  margin: 7px;
+  font-weight: 300;
+  font-family: "Roboto Slab", serif;
+}
+
+/* About Page: Skills Icons */
+.services-class img {
+  margin-bottom: 10px;
+}
+
+/* Services Section */
+.services-class .r-btn {
+  border: none;
+  border-radius: 50px;
+  transition: 0.5s all;
+  padding: 10px 25px;
+}
+
+.services-class li {
+  list-style-type: disc;
+  line-height: 1.4em;
+}
+
+.services-class .r-btn a {
+  color: #fff !important;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.0125em;
+}
+
+.card {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card,
+.card-header {
+  background: white !important;
+  padding: 15px;
+  margin: 10px;
+  border: none !important;
+  border-radius: 50px;
+}
+
+.services-class .card-header i {
+  font-size: 60px;
+  color: #00acc8;
+}
+
+.service-card-border {
+  height: 22px;
+  width: 40px;
+  margin: 15px auto;
+  border: none !important;
+}
+
+/* Footer */
+.contact .r-icon {
+  font-size: 50px;
+}
+
+.contact a {
+  color: #00acc8;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.contact a:hover {
+  color: #323232;
+}
+
+footer {
+  height: 200px;
+  background-color: #00acc8;
+  padding: 20px;
+}
+
+footer .r-icon a {
+  font-size: 50px;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #323232;
+  transition: 0.5s all ease-in-out;
+}
+
+footer .text-muted {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
